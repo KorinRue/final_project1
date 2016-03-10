@@ -17,7 +17,7 @@ var csoDrainageGeoJSON;
 
 //add CSO drainage area data
 
-$.getJSON( "geoJSON/cso_drainage_area.geojson" , function( data ) {
+$.getJSON( "geojson/cso_drainage_area.geojson" , function( data ) {
 
     var csoDrainage = data;
 
@@ -39,7 +39,7 @@ $.getJSON( "geoJSON/cso_drainage_area.geojson" , function( data ) {
 //add CSO outfalls
 function addCSOOutfalls() {
 
-    $.getJSON( "geoJSON/sewer_infrastructure.geojson" , function(data) {
+    $.getJSON( "geojson/sewer_infrastructure.geojson" , function(data) {
 
         var csoOutfall = data;
 
